@@ -1,0 +1,352 @@
+*{
+    padding: 0;
+    margin: 0;
+}                          
+/* select all elements */
+a{
+    color: inherit;
+    text-decoration: inherit;
+}
+body{
+    background-color:rgb(228, 228, 228);
+    font-family: sans-serif;
+}
+.parent{
+ width: 1200px;
+   margin: auto;
+   padding-left: 15px;
+   
+
+}
+header{
+    background-color: white;
+    padding: 15px;
+    font-family: sans-serif;
+    
+   
+}
+nav{
+   gap: 10px;
+    display: flex;
+   align-items: center;
+   justify-content: center;
+   
+}
+    
+
+  
+
+.logo{
+    font-size: 20px;
+}
+   
+   
+
+.menu{
+    display: flex;
+    gap: 50px;
+    font-size: 14px;
+    color: rgba(0,0,0,0.8);
+
+
+}
+
+
+.heading1{
+       padding: 20px 0px;
+       text-align: center;
+       font-weight: normal;
+       font-size: 14px;
+    }
+.mac{
+    padding: 40px;
+    font-size: 80px;    
+    font-weight: 600;
+    
+}
+.tagline{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 100;
+}
+#mac-section{
+    background-color: white;
+    padding: 20px 12px;
+}
+.mac-heading{
+    margin-bottom: 40px;
+    font-size: 80px;
+
+}
+.slide{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+    
+}
+.mac-slider{
+    display: flex;
+    gap: 25px;
+   
+
+}
+#product-section{
+    padding: 60px 12px;
+}
+.explore-heading{
+    font-size: 48px;
+    font-style: normal;
+}
+.explore-heading{
+    padding: 40px 12px;
+}
+.all-product{
+   
+    background-color: rgb(206, 206, 206);
+   border-radius: 20px;
+   height: 50px;
+   width: 440px;
+   margin-left: 40px;
+   display: flex;
+   gap: 10px;
+  justify-content: center;
+   
+   
+}
+.list{
+    font-size: 17px;
+    margin: 10px    ;
+    transition: 500ms;
+    width: 120px;
+    height: 35px;
+   justify-content: center;
+   text-align: center;
+
+   
+}
+.list:hover{
+    background-color: black;
+    color: white;
+    border-radius: 45px;
+    justify-content: baseline;
+
+    /* width: 100px;
+    height: 35px;
+    text-align: center; */}
+.image-box{
+    height: 560px;
+    width: auto;
+    display: flex;
+    /* margin-top: 20px; */
+     border-radius: 10px;
+     padding: 50px;
+
+}
+.macbookneo{
+    height: 272px;
+    width: 372px;
+    padding: 10px 20px;
+
+    
+}
+.macbookheader{
+    margin-top: 45px;
+    text-align: center;
+  
+}
+.tag{
+    text-align: center  ;
+}
+.pricetag{
+    text-align: center;
+    margin-top: 35px;
+}
+.learnmoretag{
+    height: 44px;
+    width: 372px;
+    padding-left: 20px;
+   
+    padding: 21px 11px;
+    display: flex;
+    text-align: center;
+    gap: 20px;
+   
+    
+}
+.boxlearnmore{
+    height: 44px;
+    width: 132px;
+    /* justify-content: center; */
+    background-color: blue;
+     border-radius: 20px;
+     margin-top: 20px;
+     display: flex;
+     align-items: center;
+     text-align: center;
+     padding-left: 20px;
+
+    
+    
+ 
+    
+}
+.BUYTAG1{ 
+   
+     display: flex;
+     align-items: center;
+     text-align: center;
+      margin-top: 40px;
+      color: blue;
+      
+
+
+}    
+.text{
+    color: white;
+text-align: center;
+
+}
+ .sectionheader{
+    /* height: 675px; */
+    display: flex;
+    gap: 560px;
+    
+
+
+ }
+.headertext{
+    font-size: 48px;
+    
+    
+}
+.shopmac{
+    color: blue;
+    margin-top: 60px;
+   
+}
+.imagesection{
+    height: 532px;
+    display: flex;
+    gap: 10px;
+    box-sizing: border-box;
+    padding: 10px;
+
+
+}
+.imagebox{
+    height: 495px;
+    width: 372px;
+    
+    display: flex ;
+    border-radius: 20px;
+    box-shadow: 2px 2px 5px 5px rgb(136, 136, 150);
+    padding: 15px;
+    background-color: white;
+    
+}
+.box1{
+    height: 30%;
+    width: 100%;
+    
+}
+.box2{
+background-repeat: no-repeat;
+margin-top: 250px;
+
+}
+#knowmac{
+    height: 1068px;
+    padding: 0px 144px;
+    background-color: white;
+}
+.sectionholder{
+    height: 1068px;
+    width: 8802px;
+    
+}
+.text11{
+    margin-top: 150px;
+    font-size: 48px;
+    padding-top: 140px;
+
+}
+.imagesection1{
+    height: 688px;
+    gap: 20px;
+    width: auto;
+    display: flex;
+    
+}
+.imagebox1{
+    width: 390px;
+    height: 680px;
+    background-image: url("IMAGE/1127.jpg");
+    border-radius: 25px;
+    margin-top: 60px;
+}
+.imagebold{
+    margin-top: 20px;
+}
+.imageheading{
+    padding: 0px 20px  ;
+    color: white;
+
+}
+.imageheading2{
+    color: white;
+    padding-left: 25px;
+}
+.imagebox2{
+    width: 390px;
+    height: 680px;
+    background-image: url("IMAGE/1135.jpg");
+    border-radius: 25px;
+    margin-top: 60px;
+}
+
+
+.imagebox3{
+    width: 390px;
+    height: 680px;
+    background-image: url("IMAGE/1141.jpg");
+    border-radius: 25px;
+    margin-top: 60px;
+}
+.imageheadings{
+    padding: 0px 20px  ;
+    color: black;
+
+}
+.imageheadings2{
+    color:black;
+    padding-left: 25px;
+}
+.imagebox4{
+    width: 390px;
+    height: 680px;
+    background-image: url("IMAGE/1145.jpg");
+    border-radius: 25px;
+    margin-top: 60px;
+}
+.headswitch{
+    margin-top: 120px;
+    font-size: 48px;
+}
+.switchmacbox{
+    height: 480px;
+    width: 1260px;
+    margin-top: 40px;
+    background-color: white;
+}
+.swutchmacbox1{
+    width: 525px;
+    height: 100%;
+    align-items:center ;
+    text-align: center;
+    padding-top: 240px;
+
+}
+.paragarp-mac{
+padding-left: 75px;
+
+}
